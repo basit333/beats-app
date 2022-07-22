@@ -1,3 +1,10 @@
+let typed = new Typed(".auto-typed", {
+  strings: ["Beat Maker"],
+  typeSpeed: 120,
+  backSpeed: 120,
+  loop: true,
+});
+
 window.addEventListener("load", () => {
   const sounds = document.querySelectorAll(".sound");
   const pads = document.querySelectorAll(".pads div");
